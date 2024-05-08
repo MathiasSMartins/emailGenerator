@@ -1,0 +1,25 @@
+#employeeNameInput {
+    width: 300px;
+}
+
+#emailsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#emailsTable th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#emailsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#emailsTable tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}

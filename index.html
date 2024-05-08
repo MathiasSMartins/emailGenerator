@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de email</title>
+  <link rel="stylesheet" href="styles.css"></link>
+</head>
+
+<body>
+  <h1>Gerador de Email</h1>
+  <form id="form">
+    <label for="employeeNameInput">Nome do Funcionário:</label>
+    <input type="text" id="employeeNameInput" name="employeeName">
+    <button type="button" onclick="getEmployeeName()">Enviar</button>
+  </form>
+
+  <table id="emailsTable">
+    <thead>
+      <tr>
+        <th>Nome do Funcionário</th>
+        <th>E-mail</th>
+      </tr>
+    </thead>
+    <tbody id="emailsTableBody"></tbody>
+  </table>
+
+  <script src="emailGenerator.js"></script>
+</body>
+
+</html>
